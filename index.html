@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Hórus</title>
+      <link rel="stylesheet" href="./css/uikit.min.css"/>
+      <script src="./js/uikit.min.js"></script>
+      <script src="./js/uikit-icons.min.js"></script>
+      <style media="screen">
+
+}
+img {
+  height: 80vh;
+}
+::selection {
+  background: #333; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #333; /* Gecko Browsers */
+}
+
+.navscroll {
+  background-color: rgba(35,35,35,1);
+  transition: background-color .7s;
+}
+
+.uk-navbar-transparent{
+  transition: background-color .7s, height 2s;
+}
+
+.bg{
+    padding: 40px 100px;
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 2px;
+}
+
+.card:hover {
+  background-color:#e5c100!important;
+  color: white;
+  transition: background-color .5s, color .5s;
+}
+.card:hover h3 {
+  color: white;
+  transition: background-color .5s, color .5s;
+}
+
+.text-golden {
+  color:#e5c100;
+}
+
+.text-black {
+  color:#000000;
+}
+
+.text-white {
+  color: white!important;
+}
+
+a {
+  color: rgba(220,220,220,1)!important;
+}
+
+li a:hover {
+  color: #FFD700!important;
+}
+.border-right-column {
+  border-right: 1px solid black;
+}
+
+.bg-golden {
+  background-color:#e5c100;
+  transition: background-color 1s;
+}
+
+.bg-golden:hover {
+  background-color:#ecd34c;
+}
+
+.form-golden:focus {
+  border-color: #e5c100;
+}
+
+.form-golden {
+  color:#b29c23!important;
+}
+
+.form-red {
+  color:#f50000!important;
+}
+
+textarea {
+  resize: none;
+}
+  </style>
+   </head>
+   <body>
+
+
+  <div class="uk-container-expanded uk-cover-container empresa">
+    <h2 class="uk-heading-primary uk-light uk-position-center bg text-white"><label for="">Contato</label></h2>
+  </div>
+  <div class="uk-container uk-margin-medium">
+    <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+    <div class="">
+      <h3 class="text-golden uk-text-center">Contate-nos</h3>
+      <form class="uk-grid-small" uk-grid>
+
+        
+        <div class="uk-width-1-2@s" >
+           <label class="uk-form-label" for="form-stacked-text">Nome</label>
+            <input class="uk-input form-golden"  oninput="cor()" id="txtNome" type="text" placeholder="">
+        </div>
+
+ 
+        <div class="uk-width-1-2@s">
+          <label class="uk-form-label" for="form-stacked-text">Sobrenome</label>
+            <input class="uk-input form-golden" type="text" placeholder="">
+        </div>
+        <div class="uk-width-1-1">
+          <label class="uk-form-label" for="form-stacked-text">Assunto</label>
+            <input class="uk-input form-golden" type="text" placeholder="">
+        </div>
+        <div class="uk-width-1-1">
+          <label class="uk-form-label" for="form-stacked-text">Mensagem</label>
+          <textarea class="uk-textarea form-golden" rows="4" cols="50"></textarea>
+        </div>
+        <div class="uk-width-1-1">
+        <button class="uk-button uk-button-primary uk-width-1-1 bg-golden">Enviar</button>
+        </div>
+    </form>
+  </div>
+
+
+
+
+  
+  <div class="">
+    <h3 class="text-golden uk-text-center">Midias Sociais</h3>
+  </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+   </body>
+</html>
