@@ -13,17 +13,14 @@ $(function(){
 
 function cor(){
   var NLetras = document.getElementById("txtNome").value;
-
-if(NLetras.length < 6){
-  document.getElementById("txtNome").className = "uk-form-danger uk-input";
-};
-
-if(NLetras.length > 6 ){
-  document.getElementById("txtNome").className = "uk-form-success uk-input";
-};
+  
 if(NLetras == ""){
   document.getElementById("txtNome").className = "form-golden uk-input";
-}
+} else if(NLetras.length <= 2){
+  document.getElementById("txtNome").className = "uk-form-danger uk-input";
+} else {
+  document.getElementById("txtNome").className = "uk-form-success uk-input";
+};
   
 }
 
